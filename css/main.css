@@ -12,6 +12,7 @@ h1 {
 	line-height: 20px;
 	font-weight: inherit;
 	font-kerning: normal;
+	letter-spacing: 5px;
 }
 a {
 	color: #fff;
