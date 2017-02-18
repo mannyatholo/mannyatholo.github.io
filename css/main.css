@@ -43,14 +43,14 @@ a:hover {
 /* Mobile */
 @media only screen and (max-device-width:600px) {
 	.content {
-		position: absolute;
+		/*position: absolute;
 		top: 10%;
 		left: 5%;
 		right: 5%;
 		font-size: 16px;
 		font-weight: 300;
 		font-style: normal;
-		color: #fff;
+		color: #fff;*/
 	}
 
 	.line-break{
@@ -58,7 +58,7 @@ a:hover {
 		margin: 0;
 		padding: 0;
 	}
-	.find {
+	/*.find {
 		font-size: 80px;
 		line-height: 80px;
 		letter-spacing: -4.0px;
@@ -68,7 +68,7 @@ a:hover {
 		margin-top: 70px;
 		display: block;
 		color: #fafafa;
-	}
+	}*/
 
 }
 
