@@ -3,7 +3,7 @@
 	margin: 0;
 }
 body {
-	font-family: 'Raleway', sans-serif;
+	font-family: Cinetype-Regular;
 	background-color: #0e0e0e;
 	color: #fff;
 }
@@ -18,7 +18,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
-	color: #00eebe;
+	color: ##87f6ff;
 	transition-duration: 0.3s;
 }
 .content {
@@ -57,17 +57,7 @@ a:hover {
 		margin: 0;
 		padding: 0;
 	}
-	/*.find {
-		font-size: 80px;
-		line-height: 80px;
-		letter-spacing: -4.0px;
-	}
-	.star {
-		font-size: 28px;
-		margin-top: 70px;
-		display: block;
-		color: #fafafa;
-	}*/
+
 
 }
 
