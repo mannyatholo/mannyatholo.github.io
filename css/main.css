@@ -25,6 +25,8 @@ a {
 	color: #dffee7;
 	text-decoration: none;
 	-webkit-font-smoothing: antialiased;
+	padding: 5px;
+	font-size: 18px;
 }
 a:hover {
 	color: #54ff80;
@@ -48,7 +50,10 @@ a:hover {
 	padding: 0;
 }
 
-
+.icons-container{
+	display: flex;
+	padding-left: 50%;
+}
 
 
 /* Mobile */
