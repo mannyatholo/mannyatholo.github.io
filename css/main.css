@@ -8,6 +8,8 @@ body {
 	color: #333;
 	-webkit-font-smoothing: antialiased;
 	font-weight: 400;
+	overflow-x: hidden;
+	overflow-y: auto;
 }
 h1 {
 	font-family: Agipo Regular Extended, sans-serif;
@@ -52,7 +54,12 @@ a:hover {
 
 .icons-container{
 	display: flex;
-	padding-left: 50%;
+	padding-left: 45%;
+}
+
+.lost, .music {
+	font-size: 15px;
+	padding: 0px;
 }
 
 
@@ -158,3 +165,200 @@ ul , li {
 		-webkit-font-smoothing: antialiased;
 		font-weight: 400;
 }
+
+
+
+/* The Overlay (background) */
+.overlay {
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    height: 100%;
+    width: 0;
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    left: 0;
+    top: 0;
+    background-color: rgb(0,0,0); /* Black fallback color */
+    background-color: rgba(223,254,231, 0.8); /* Black w/opacity */
+	overflow-x: hidden; /* Disable horizontal scroll */
+    transition: 0.5s; /* 0.5 second transition effect to slide in or slide down the overlay (height or width, depending on reveal) */
+}
+
+/* Position the content inside the overlay */
+.overlay-content {
+    position: relative;
+	padding-left: 1%;
+    width: 100%; /* 100% width */
+	margin-top: 75px; /* 30px top margin to avoid conflict with the close button on smaller screens */
+	overflow: hidden;
+
+}
+
+/* The navigation links inside the overlay */
+.overlay a {
+    padding: 8px;
+    text-decoration: none;
+    font-size: 36px;
+    color: #FFF;
+    display: block; /* Display block instead of inline */
+	transition: 0.3s; /* Transition effects on hover (color) */
+	text-align: right;
+	
+}
+.overlay ul {
+	padding-top: 5%;
+}
+
+/* When you mouse over the navigation links, change their color */
+.overlay a:hover, .overlay a:focus {
+    color: #f1f1f1;
+}
+
+/* Position the close button (top right corner) */
+.overlay .closebtn {
+    position: absolute;
+    top: 20px;
+    right: 45px;
+    font-size: 60px;
+}
+
+/* When the height of the screen is less than 450 pixels, change the font-size of the links and position the close button again, so they don't overlap */
+@media screen and (max-height: 450px) {
+    .overlay a {font-size: 20px}
+    .overlay .closebtn {
+        font-size: 40px;
+        top: 15px;
+        right: 35px;
+    }
+}
+}
+
+.lost {
+	color: #dffee7;
+}
+ 
+ .title {
+	padding-left: 70%;
+	color: white;
+} 
+
+.country {
+	text-align: right;
+	padding: 2%;
+}
+h3 {
+	text-align: right;
+}
+
+
+/* GLOBE */
+figure {
+  width: 20%;
+  max-width: 80vh;
+  
+  
+  
+}
+figure #sea {
+  fill: rgba(223,254,231, 0.5);
+}
+figure #hi {
+  fill: rgba(255, 255, 255, 0.2);
+}
+figure #light {
+  fill: white;
+}
+figure #shad {
+  fill: rgba(0, 0, 0, 0.05);
+}
+figure #land {
+  fill: #222;
+  -webkit-animation: spin 10s linear infinite forwards;
+          animation: spin 10s linear infinite forwards;
+}
+figure .vehicles use {
+  fill: #F0FBFC;
+  -webkit-animation: orbit 15s linear infinite;
+          animation: orbit 15s linear infinite;
+  -webkit-transform-origin: center center;
+          transform-origin: center center;
+}
+figure #boat1 {
+  -webkit-transform: translateX(40px) translateY(-80px);
+          transform: translateX(40px) translateY(-80px);
+}
+figure #boat1 use {
+  -webkit-animation-duration: 30s;
+          animation-duration: 30s;
+}
+figure #plane1 {
+  -webkit-transform: translateX(-10px) translateY(170px);
+          transform: translateX(-10px) translateY(170px);
+}
+figure #plane2 {
+  -webkit-transform: translateX(170px) translateY(150px);
+          transform: translateX(170px) translateY(150px);
+}
+figure #plane2 use {
+  -webkit-animation-delay: 7.5s;
+          animation-delay: 7.5s;
+}
+figure #plane3 {
+  -webkit-transform: translateX(140px) translateY(-50px);
+          transform: translateX(140px) translateY(-50px);
+}
+figure #plane3 use {
+  -webkit-animation-delay: 1.25s;
+          animation-delay: 1.25s;
+  -webkit-animation-duration: 12s;
+          animation-duration: 12s;
+}
+figure #bike1 {
+  -webkit-transform: translateX(50px) translateY(190px);
+          transform: translateX(50px) translateY(190px);
+}
+figure #bike1 use {
+  -webkit-animation-duration: 25s;
+          animation-duration: 25s;
+}
+@-webkit-keyframes orbit {
+  from {
+    -webkit-transform: rotate(0deg) translateX(-160px);
+            transform: rotate(0deg) translateX(-160px);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(-160px);
+            transform: rotate(360deg) translateX(-160px);
+  }
+}
+@keyframes orbit {
+  from {
+    -webkit-transform: rotate(0deg) translateX(-160px);
+            transform: rotate(0deg) translateX(-160px);
+  }
+  to {
+    -webkit-transform: rotate(360deg) translateX(-160px);
+            transform: rotate(360deg) translateX(-160px);
+  }
+}
+@-webkit-keyframes spin {
+  from {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+@keyframes spin {
+  from {
+    -webkit-transform: translateX(-300px);
+            transform: translateX(-300px);
+  }
+  to {
+    -webkit-transform: translateX(0px);
+            transform: translateX(0px);
+  }
+}
+
+/* GLOBE */
