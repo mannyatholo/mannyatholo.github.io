@@ -55,6 +55,7 @@ a:hover {
 .icons-container{
 	display: flex;
 	padding-left: 45%;
+	
 }
 
 .lost, .music {
@@ -362,3 +363,12 @@ figure #bike1 use {
 }
 
 /* GLOBE */
+
+
+
+.header {
+	font-family: Agipo Regular Extended, sans-serif;
+	text-align: right;
+	padding-right: 5%;
+	padding-top: 2%;
+}
