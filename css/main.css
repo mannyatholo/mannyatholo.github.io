@@ -13,7 +13,7 @@ body {
 }
 h1 {
 	font-family: Agipo Regular Extended, sans-serif;
-	font-size: 15px;
+	font-size: 12px;
 	line-height: 20px;
 	font-weight: inherit;
 	font-kerning: normal;
@@ -55,7 +55,7 @@ a:hover {
 .icons-container{
 	display: flex;
 	padding-left: 45%;
-	
+
 }
 
 .lost, .music {
@@ -98,6 +98,10 @@ a:hover {
 
 .bold {
   text-decoration: line-through;
+	color: #dffee7;
+}
+
+.bold2 {
 	color: #dffee7;
 }
 
@@ -171,7 +175,7 @@ ul , li {
 
 /* The Overlay (background) */
 .overlay {
-    /* Height & width depends on how you want to reveal the overlay (see JS below) */    
+    /* Height & width depends on how you want to reveal the overlay (see JS below) */
     height: 100%;
     width: 0;
     position: fixed; /* Stay in place */
@@ -203,7 +207,7 @@ ul , li {
     display: block; /* Display block instead of inline */
 	transition: 0.3s; /* Transition effects on hover (color) */
 	text-align: right;
-	
+
 }
 .overlay ul {
 	padding-top: 5%;
@@ -236,11 +240,11 @@ ul , li {
 .lost {
 	color: #dffee7;
 }
- 
+
  .title {
 	padding-left: 70%;
 	color: white;
-} 
+}
 
 .country {
 	text-align: right;
@@ -255,9 +259,9 @@ h3 {
 figure {
   width: 20%;
   max-width: 80vh;
-  
-  
-  
+
+
+
 }
 figure #sea {
   fill: rgba(223,254,231, 0.5);
