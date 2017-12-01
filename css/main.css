@@ -12,8 +12,8 @@ body {
 	-webkit-font-smoothing: antialiased;
 }
 h1 {
-	margin: 0 0 1em;
 
+	margin: 0 0 1em;
 	letter-spacing: 2px;
 
 	font-family: Agipo Regular Extended, sans-serif;
@@ -441,3 +441,29 @@ figure #bike1 use {
 
 	font-family: Agipo Regular Extended, sans-serif;
 }
+
+
+
+
+
+
+
+
+
+
+/*SCENE*/
+
+
+#scene {
+   width: 400px;
+   height: 400px;
+   margin: auto;
+ }
+ #scene canvas {
+   cursor: -webkit-grab;
+   cursor: -moz-grab;
+ }
+ #scene canvas:active {
+   cursor: -webkit-grabbing;
+   cursor: -moz-grabbing;
+ }
