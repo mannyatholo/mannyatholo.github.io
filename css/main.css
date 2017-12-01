@@ -57,6 +57,9 @@ a:hover {
 	padding-left: 45%;
 
 }
+i {
+  font-size: 20px;
+}
 
 .lost, .music {
 	font-size: 15px;
