@@ -26,6 +26,14 @@ h1 {
 	-webkit-font-smoothing: antialiased;
 }
 
+p {
+  letter-spacing: 2px;
+  font-weight: 400;
+  font-size: 16px;
+  font-kerning: normal;
+  -webkit-font-smoothing: antialiased;
+}
+
 h2 {
   margin: 0 0 1em;
 
