@@ -20,7 +20,7 @@ h1 {
 	font-size: 16px;
 	font-weight: inherit;
 	font-weight: 400;
-	line-height: 20px;
+	line-height: 30px;
 
 	font-kerning: normal;
 	-webkit-font-smoothing: antialiased;
@@ -138,7 +138,8 @@ a:hover {
 }
 
 .bold2 {
-	color: #dffee7;
+  color: #dffee7;
+  font-size: 20px;
 }
 
 #footer-social {
@@ -428,42 +429,3 @@ figure #bike1 use {
             transform: translateX(0px);
   }
 }
-
-/* GLOBE */
-
-
-
-.header {
-	padding-top: 2%;
-	padding-right: 5%;
-
-	text-align: right;
-
-	font-family: Agipo Regular Extended, sans-serif;
-}
-
-
-
-
-
-
-
-
-
-
-/*SCENE*/
-
-
-#scene {
-   width: 400px;
-   height: 400px;
-   margin: auto;
- }
- #scene canvas {
-   cursor: -webkit-grab;
-   cursor: -moz-grab;
- }
- #scene canvas:active {
-   cursor: -webkit-grabbing;
-   cursor: -moz-grabbing;
- }

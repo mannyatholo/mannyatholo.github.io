@@ -1,0 +1,37 @@
+/* html, body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+  }
+  body {
+    background-color: #15233A;
+    text-align: center;
+    color: #ffffff;
+    font-family: 'Fira Mono', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    letter-spacing: .1em;
+  }
+  h1, h2 {
+    font-size: 1rem;
+    color: #DDDDEE;
+  }
+  h2 {
+    color: #aaaaaa;
+    font-weight: normal;
+  } */
+
+  #scene {
+    width: 400px;
+    height: 400px;
+    margin: auto;
+  }
+  #scene canvas {
+    cursor: -webkit-grab;
+    cursor: -moz-grab;
+  }
+  #scene canvas:active {
+    cursor: -webkit-grabbing;
+    cursor: -moz-grabbing;
+  }
