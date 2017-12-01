@@ -65,7 +65,11 @@ i {
 	font-size: 15px;
 	padding: 0px;
 }
-.github {
+.github,
+.twitter,
+.soundcloud,
+.emails,
+.resume {
   font-size: 20px;
 }
 
