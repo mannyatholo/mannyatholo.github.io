@@ -120,6 +120,9 @@ a:hover {
   p, a{
     text-align: left;
   }
+  p {
+    width: 100%;
+  }
   .github,
   .twitter,
   .soundcloud,
